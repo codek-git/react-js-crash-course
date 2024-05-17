@@ -1,0 +1,44 @@
+.bookContainer {
+  /* Styles for the overall book container */
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 800px;
+}
+
+.bookTitle {
+  /* Styles for the book title */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.bookList {
+  /* Styles for the book list */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bookItem {
+  /* Styles for each book item */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.bookItemTitle {
+  /* Styles for the book item title */
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.bookItemAuthor {
+  /* Styles for the book item author */
+  font-size: 16px;
+  color: #888;
+}
